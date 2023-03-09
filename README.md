@@ -19,3 +19,17 @@ Le site aura une page de profil pour chaque utilisateur, ou:
 L'utilisateur peut créer des articles, un article consiste en:
 
 - id, title, content, image.
+
+# Initilisation de la partie front-end ReactJS
+
+- initiliser le projet avec le commande `npx create-react-app my-app` // my-app => le nom du projet
+- après l'initilisation aller vers le projet avec le commande `cd my-app`
+- pour débouger le projet avec le commande `npm start`
+
+# Initilisation de la partie Backend Expressjs et mongoDB
+
+- initiliser le projet avec le commande `npm init`
+- pour redémarre automatiquement le processus ma application installer le nodemon `npm istall nodemon`.
+- pour le mode du developement installer le commande `npm install nodemon --save-dev`
+- installer expressjs avec le commande `npm install express`
+- installer la BDD mongoDB avec le commande `npm install mongoose`

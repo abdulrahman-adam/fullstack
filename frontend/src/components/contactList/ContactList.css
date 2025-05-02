@@ -1,0 +1,130 @@
+/* General Styles */
+div {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  td {
+    word-wrap: break-word;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    table {
+      width: 100%;
+      font-size: 0.9rem;
+    }
+  
+    th, td {
+      padding: 8px;
+    }
+  
+    button {
+      padding: 5px 8px;
+      font-size: 0.8rem;
+    }
+  
+    /* Make the table scrollable on small devices */
+    .table-container {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 480px) {
+    h2 {
+      font-size: 1.6rem;
+    }
+  
+    table {
+      width: 100%;
+      font-size: 0.8rem;
+      border: none;
+      text-align: center;
+    }
+  
+    th, td {
+      padding: 6px;
+      text-align: center;
+    }
+  
+    td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid #ddd;
+      margin-bottom: 10px;
+    }
+  
+    th {
+      display: none; /* Hide column headers on mobile */
+    }
+  
+    td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    button {
+      font-size: 0.7rem;
+      padding: 4px 8px;
+      /* width: 80%; */
+      border-radius: 15px;
+      cursor: pointer;
+    }
+  
+    /* Reduce space around table */
+    div {
+      padding: 15px;
+    }
+  }
+  

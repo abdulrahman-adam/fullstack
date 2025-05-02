@@ -1,0 +1,33 @@
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    background-color: royalblue;
+    height: 40px;
+   
+    border-radius: 8px;
+   
+  }
+  
+  .clock-time {
+    margin-bottom: 0;
+    font-size: 22px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Responsive for tablets */
+  @media (max-width: 768px) {
+    .clock-time {
+      font-size: 22px;
+    }
+  }
+  
+  /* Responsive for mobile devices */
+  @media (max-width: 480px) {
+    .clock-time {
+      font-size: 22px;
+    }
+  }
+  

@@ -1,0 +1,78 @@
+/* src/components/CreateStudent.css */
+.student-form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .student-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .student-form input[type="text"],
+  .student-form input[type="email"],
+  .student-form input[type="date"],
+  .student-form input[type="file"],
+  .student-form button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .student-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .student-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 768px) {
+    .radio-group {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  .error-message {
+    background-color: #fddede;
+    color: #c62828;
+    font-size: 0.875rem;
+    padding: 6px 10px;
+    border-radius: 4px;
+    margin-top: 4px;
+  }
+
+
+  /* Base alert style */
+.alert {
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Success message style */
+.alert.success {
+  background-color: #d4edda; /* light green */
+  color: #155724;            /* dark green text */
+  border: 1px solid #c3e6cb;
+}

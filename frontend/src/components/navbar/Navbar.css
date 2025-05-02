@@ -1,9 +1,6 @@
 /* General Navbar Styling */
 .navbar {
-    background-color: #232f3e;;
-    /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
-    /* position: fixed; */
-    /* width: 100%; */
+    background-color: #232f3e;
     top: 0;
     left: 0;
     z-index: 1000;
@@ -19,9 +16,6 @@
   .navbar-container {
     
     width: 100%;
-    /* max-width: 1200px; */
-    /* margin: 0 auto; */
-    /* padding: 1rem; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,6 +32,7 @@
   .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
+   
   }
 
   .navbar-brand a{
@@ -102,21 +97,6 @@
   }
   
   /* Mobile Menu Overlay */
-  /* .mobile-menu {
-    position: fixed;
-    inset: 0;
-    background-color: white;
-    z-index: 999;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-    font-size: 1.25rem;
-    background-color: #232f3e;
-    color: white;
-    height: 100vh;
-  } */
 
   .mobile-menu {
     position: fixed;

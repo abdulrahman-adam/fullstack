@@ -48,8 +48,9 @@ connectDB();
 // Middleware
 // CORS setup to allow requests from localhost:3001 (React app)
 const corsOptions = {
-  origin: ['http://localhost:3001'],
-  // origin: ['https://ayacodia.com', 'http://localhost:3001'], // Add localhost:3001 here
+  // origin: ['http://localhost:3001'],
+  origin: process.env.CLIENT_ORIGIN,
+  // origin: ['https://ayacodia.com'], // Add localhost:3001 here
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
   allowedHeaders: ['Content-Type', 'Authorization']

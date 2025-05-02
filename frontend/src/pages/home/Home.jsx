@@ -12,7 +12,6 @@ return (
     <div className="slider"><Slider/></div>
 
       <div><Random/></div>
-      <div><ContactList/></div>
     
     </div>
 

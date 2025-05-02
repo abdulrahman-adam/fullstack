@@ -12,6 +12,7 @@ function Logo() {
         width: '127px',
         height: '50px',
         borderRadius: '3px',
+        padding:"0px"
       }}
     >
       <span>

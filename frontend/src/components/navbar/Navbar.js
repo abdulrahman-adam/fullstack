@@ -17,8 +17,8 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div className="navbar-container">
-          <span className="navbar-brand"><Link to="/" onClick={() => handleNavClick("/")}><span><Logo/></span></Link></span>
+        <div className="navbar-container" style={{}}>
+          <span className="" style={{}}><Link to="/" onClick={() => handleNavClick("/")}><span><Logo/></span></Link></span>
 
           {/* Desktop Links */}
           <div className="navbar-links">
